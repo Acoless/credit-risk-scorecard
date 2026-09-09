@@ -1,0 +1,7 @@
+# Extras para reentrenar el modelo (train.py / notebook)
+-r requirements.txt
+kagglehub==0.3.6
+matplotlib==3.9.2
+seaborn==0.13.2
+jupyter==1.1.1
+ipykernel==6.29.5

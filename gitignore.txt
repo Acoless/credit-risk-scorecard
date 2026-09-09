@@ -1,0 +1,35 @@
+# ---- Entorno virtual ----
+.venv/
+venv/
+env/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Editor / SO ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- Datos crudos (se descargan con kagglehub) ----
+data/
+*.csv
+!Scorecard_Credito_Puntos.csv
+!outputs/*.csv
+
+# ---- Reportes generados en runtime ----
+*.pdf
+!docs/*.pdf
+
+# ---- Local ----
+ejecutable.bat
+*.log
