@@ -17,7 +17,7 @@ solicitantes con generación de reporte en PDF.
 
 El binning óptimo y la regresión logística se ajustan **exclusivamente sobre el conjunto de entrenamiento** (70%), y todas las métricas se miden sobre el 30% restante, que el modelo nunca vio. La brecha train–test de 0.001 en Gini indica ausencia de sobreajuste, algo que se espera en un modelo sencillo como el de kaggle 
  
-El análisis de punto de corte y la segmentación por bandas de riesgo también se calculan sobre el conjunto de prueba, de modo que el *bad rate* reportado en cada tramo es practicamente una estmiación sin muestra.
+El análisis de punto de corte y la segmentación por bandas de riesgo también se calculan sobre el conjunto de prueba, de modo que el *bad rate* reportado en cada tramo es prácticamente una estimación sin muestra.
 
 <!-- Reemplazar por una captura real de la app -->
 ![Vista de la aplicación](docs/Proyect.gif)
