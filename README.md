@@ -129,11 +129,11 @@ credit-risk-scorecard/
 ├── app.py
 ├── run.bat
 ├── .streamlit/
-│   └── config.toml                  # tema; NUNCA secrets.toml
+│   └── config.toml                  
 ├── src/
 │   └── train.py
 ├── notebooks/
-│   └── script.ipynb     # tu script.ipynb, renombrado
+│   └── script.ipynb     
 ├── models/
 │   └── scorecard_model.pkl
 ├── outputs/
