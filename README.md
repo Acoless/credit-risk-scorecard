@@ -109,6 +109,28 @@ python src/train.py
 
 ---
 
+credit-risk-scorecard/
+├── README.md
+├── LICENSE                          # MIT
+├── .gitignore
+├── requirements.txt                 # correr la app
+├── requirements-dev.txt             # reentrenar (kaggle, matplotlib, jupyter)
+├── app.py
+├── .streamlit/
+│   └── config.toml                  # tema; NUNCA secrets.toml
+├── src/
+│   └── train.py
+├── notebooks/
+│   └── scorecard_analysis.ipynb     # tu script.ipynb, renombrado
+├── models/
+│   └── scorecard_model.pkl
+├── outputs/
+│   └── Scorecard_Credito_Puntos.csv
+└── docs/
+    ├── app_preview.png              # capturas de la app
+    └── score_distribution.png
+
+
 ## Stack
 
 Python 3.12 · pandas · scikit-learn · OptBinning · SciPy · Streamlit · FPDF2
