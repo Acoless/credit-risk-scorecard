@@ -19,7 +19,7 @@ El binning óptimo y la regresión logística se ajustan **exclusivamente sobre 
  
 El análisis de punto de corte y la segmentación por bandas de riesgo también se calculan sobre el conjunto de prueba, de modo que el *bad rate* reportado en cada tramo es prácticamente una estimación sin muestra.
 
-<!-- Reemplazar por una captura real de la app -->
+
 ![Vista de la aplicación](docs/Proyect.gif)
 
 ---
