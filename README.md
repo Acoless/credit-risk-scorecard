@@ -12,7 +12,12 @@ Modelo de *credit scoring* end-to-end sobre una escala 300–850, desde el
 binning óptimo de las variables hasta una aplicación de evaluación de
 solicitantes con generación de reporte en PDF.
 
-**Gini (test): 0.77 · KS (test): 64%**
+**Gini:** 0.772 (train) · 0.773 (test) · brecha −0.001
+**KS (test):** 64.5%
+
+El binning óptimo y la regresión logística se ajustan **exclusivamente sobre el conjunto de entrenamiento** (70%), y todas las métricas se miden sobre el 30% restante, que el modelo nunca vio. La brecha train–test de 0.001 en Gini indica ausencia de sobreajuste, algo esperable en un modelo de baja capacidad: 11 coeficientes sobre 22.806 observaciones, con la no linealidad ya absorbida por el binning.
+ 
+El análisis de punto de corte y la segmentación por bandas de riesgo también se calculan sobre el conjunto de prueba, de modo que el *bad rate* reportado en cada tramo es una estimación fuera de muestra.
 
 <!-- Reemplazar por una captura real de la app -->
 ![Vista de la aplicación](docs/Proyect.gif)
@@ -108,9 +113,6 @@ python src/train.py
 
 ## Limitaciones
 
-- El análisis de punto de corte se calcula sobre el dataset completo, por lo
-  que el *bad rate* observado es optimista respecto de datos fuera de muestra. 
-  (Solucionado ajuste los datos evaluados a test u aisle por completo el raiting de train)
 - El dataset es estático y no permite validación *out-of-time*, necesaria para
   medir estabilidad poblacional (PSI) en un entorno productivo.
 - No se aplicó corrección por *reject inference*: el modelo aprende únicamente
