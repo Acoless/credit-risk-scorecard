@@ -1,9 +1,12 @@
 # Credit Risk Scorecard
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow?logo=powerbi&logoColor=black)
-![Sckit]([https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white](https://img.shields.io/badge/scikit-learn))
-![License](https://img.shields.io/badge/License-MIT-green)
+![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-%23150458.svg?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?logo=scikit-learn&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-%238CAAE6.svg?logo=scipy&logoColor=white)
+![OptBinning](https://img.shields.io/badge/OptBinning-005C53?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?logo=streamlit&logoColor=white)
+![FPDF2](https://img.shields.io/badge/FPDF2-PDF-E05D44?logo=adobeacrobatreader&logoColor=white)
 
 Modelo de *credit scoring* end-to-end sobre una escala 300–850, desde el
 binning óptimo de las variables hasta una aplicación de evaluación de
