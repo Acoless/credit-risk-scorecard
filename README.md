@@ -108,7 +108,7 @@ python src/train.py
   del comportamiento de solicitudes ya otorgadas.
 
 ---
-
+```text
 credit-risk-scorecard/
 ├── README.md
 ├── LICENSE                          # MIT
@@ -130,7 +130,7 @@ credit-risk-scorecard/
     ├── app_preview.png              # capturas de la app
     └── score_distribution.png
 
-
+```
 ## Stack
 
 Python 3.12 · pandas · scikit-learn · OptBinning · SciPy · Streamlit · FPDF2
