@@ -352,7 +352,7 @@ BLINDAJE = """
 }
 
 /* el color del boton no agarra si no lo repito en los hijos, el label queda
-   gris. raro esto pero anda */
+   gris. no se anda */
 .stButton>button,[data-testid="stBaseButton-primary"],
 [data-testid="stBaseButton-secondary"]{
   background:#16233A !important;border:1px solid #16233A !important;
