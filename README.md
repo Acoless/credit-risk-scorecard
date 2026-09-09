@@ -1,5 +1,10 @@
 # Credit Risk Scorecard
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow?logo=powerbi&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 Modelo de *credit scoring* end-to-end sobre una escala 300–850, desde el
 binning óptimo de las variables hasta una aplicación de evaluación de
 solicitantes con generación de reporte en PDF.
