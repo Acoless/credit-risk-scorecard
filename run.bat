@@ -2,12 +2,10 @@
 @echo off
 setlocal enabledelayedexpansion
  
-echo ============================================
-echo   Evaluador de Riesgo Crediticio
-echo ============================================
+echo   Evaluador de Scoring Crediticio
 echo.
  
-REM Ubicarse en la carpeta de este script, sin importar desde donde se ejecute
+REM Ubicar en la carpeta del repo
 cd /d "%~dp0"
  
 if not exist ".venv\Scripts\activate.bat" (
