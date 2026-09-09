@@ -147,7 +147,7 @@ Python 3.12 · pandas · scikit-learn · OptBinning · SciPy · Streamlit · FPD
 ## Autor
 
 **Giuliano D'Angelo** — Lic. en Economía (UBA)
-[LinkedIn](https://www.linkedin.com/in/) · [GitHub](https://github.com/Acoless)
+[LinkedIn]([https://www.linkedin.com/in/](https://www.linkedin.com/in/giulianodangelo/)) · [GitHub](https://github.com/Acoless)
 
 ## Licencia
 
