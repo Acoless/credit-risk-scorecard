@@ -38,7 +38,7 @@ El análisis de punto de corte y la segmentación por bandas de riesgo también 
 
 ## Metodología
 
-1. **Datos.** `credit-risk-dataset` (Kaggle), ~32k solicitudes con 11 variables
+1. **Datos.** `credit-risk-dataset` (Kaggle), 32k solicitudes con 11 variables
    de perfil, empleo y características del préstamo. Target: `loan_status`
    (1 = default).
 2. **Partición.** *Train / test* estratificado 70/30. El binning se ajusta
