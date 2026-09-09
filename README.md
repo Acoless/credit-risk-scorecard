@@ -15,7 +15,7 @@ solicitantes con generación de reporte en PDF.
 **Gini (test): 0.77 · KS (test): 64%**
 
 <!-- Reemplazar por una captura real de la app -->
-![Vista de la aplicación](docs/Proyecto.gif)
+![Vista de la aplicación](docs/Proyect.gif)
 
 ---
 
