@@ -133,14 +133,14 @@ credit-risk-scorecard/
 ├── src/
 │   └── train.py
 ├── notebooks/
-│   └── scorecard_analysis.ipynb     # tu script.ipynb, renombrado
+│   └── script.ipynb     # tu script.ipynb, renombrado
 ├── models/
 │   └── scorecard_model.pkl
 ├── outputs/
 │   └── Scorecard_Credito_Puntos.csv
 └── docs/
     ├── app_preview.png              # capturas de la app
-    └── score_distribution.png
+    └── Proyect.gif
 
 ```
 ## Stack
