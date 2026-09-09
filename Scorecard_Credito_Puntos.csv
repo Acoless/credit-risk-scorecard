@@ -1,0 +1,128 @@
+Variable,Bin,Points
+person_age,"(-inf, 22.50)",55.96
+person_age,"[22.50, 25.50)",56.27
+person_age,"[25.50, 28.50)",56.31
+person_age,"[28.50, 31.50)",56.4
+person_age,"[31.50, 34.50)",56.48
+person_age,"[34.50, 38.50)",56.36
+person_age,"[38.50, inf)",56.27
+person_age,Special,56.27
+person_age,Missing,56.27
+person_income,"(-inf, 22840.00)",-11.7
+person_income,"[22840.00, 34990.00)",26.53
+person_income,"[34990.00, 39930.00)",45.94
+person_income,"[39930.00, 59982.00)",57.5
+person_income,"[59982.00, 79942.50)",73.28
+person_income,"[79942.50, 89325.00)",87.84
+person_income,"[89325.00, inf)",96.69
+person_income,Special,56.27
+person_income,Missing,56.27
+person_home_ownership,"<ArrowStringArray>
+['OWN']
+Length: 1, dtype: str",106.72
+person_home_ownership,"<ArrowStringArray>
+['MORTGAGE']
+Length: 1, dtype: str",82.3
+person_home_ownership,"<ArrowStringArray>
+['RENT', 'OTHER']
+Length: 2, dtype: str",36.43
+person_home_ownership,Special,56.27
+person_home_ownership,Missing,56.27
+person_emp_length,"(-inf, 0.50)",51.49
+person_emp_length,"[0.50, 1.50)",52.7
+person_emp_length,"[1.50, 2.50)",52.99
+person_emp_length,"[2.50, 4.50)",57.18
+person_emp_length,"[4.50, 5.50)",58.88
+person_emp_length,"[5.50, 7.50)",59.03
+person_emp_length,"[7.50, 11.50)",59.93
+person_emp_length,"[11.50, inf)",62.28
+person_emp_length,Special,56.27
+person_emp_length,Missing,56.27
+loan_intent,"<ArrowStringArray>
+['VENTURE']
+Length: 1, dtype: str",84.81
+loan_intent,"<ArrowStringArray>
+['EDUCATION']
+Length: 1, dtype: str",73.89
+loan_intent,"<ArrowStringArray>
+['PERSONAL']
+Length: 1, dtype: str",63.05
+loan_intent,"<ArrowStringArray>
+['HOMEIMPROVEMENT']
+Length: 1, dtype: str",42.06
+loan_intent,"<ArrowStringArray>
+['MEDICAL']
+Length: 1, dtype: str",38.85
+loan_intent,"<ArrowStringArray>
+['DEBTCONSOLIDATION']
+Length: 1, dtype: str",36.0
+loan_intent,Special,56.27
+loan_intent,Missing,56.27
+loan_grade,"<ArrowStringArray>
+['A']
+Length: 1, dtype: str",101.07
+loan_grade,"<ArrowStringArray>
+['B']
+Length: 1, dtype: str",73.26
+loan_grade,"<ArrowStringArray>
+['C']
+Length: 1, dtype: str",60.83
+loan_grade,"<ArrowStringArray>
+['D', 'E', 'F', 'G']
+Length: 4, dtype: str",-29.52
+loan_grade,Special,56.27
+loan_grade,Missing,56.27
+loan_amnt,"(-inf, 3475.00)",56.3
+loan_amnt,"[3475.00, 5062.50)",59.28
+loan_amnt,"[5062.50, 6087.50)",66.61
+loan_amnt,"[6087.50, 7387.50)",64.36
+loan_amnt,"[7387.50, 8112.50)",61.54
+loan_amnt,"[8112.50, 10587.50)",60.1
+loan_amnt,"[10587.50, 14487.50)",56.04
+loan_amnt,"[14487.50, 18087.50)",49.48
+loan_amnt,"[18087.50, 22150.00)",43.34
+loan_amnt,"[22150.00, inf)",38.7
+loan_amnt,Special,56.27
+loan_amnt,Missing,56.27
+loan_int_rate,"(-inf, 6.10)",62.64
+loan_int_rate,"[6.10, 7.50)",60.23
+loan_int_rate,"[7.50, 7.89)",59.83
+loan_int_rate,"[7.89, 9.64)",59.17
+loan_int_rate,"[9.64, 11.27)",57.76
+loan_int_rate,"[11.27, 11.94)",57.49
+loan_int_rate,"[11.94, 12.72)",57.01
+loan_int_rate,"[12.72, 13.61)",56.27
+loan_int_rate,"[13.61, 14.37)",55.05
+loan_int_rate,"[14.37, 15.28)",51.5
+loan_int_rate,"[15.28, inf)",48.93
+loan_int_rate,Special,56.27
+loan_int_rate,Missing,56.27
+loan_percent_income,"(-inf, 0.05)",95.11
+loan_percent_income,"[0.05, 0.07)",86.0
+loan_percent_income,"[0.07, 0.13)",83.76
+loan_percent_income,"[0.13, 0.16)",79.24
+loan_percent_income,"[0.16, 0.18)",66.83
+loan_percent_income,"[0.18, 0.21)",64.29
+loan_percent_income,"[0.21, 0.25)",62.75
+loan_percent_income,"[0.25, 0.31)",48.0
+loan_percent_income,"[0.31, 0.36)",-28.91
+loan_percent_income,"[0.36, inf)",-35.94
+loan_percent_income,Special,56.27
+loan_percent_income,Missing,56.27
+cb_person_default_on_file,"<ArrowStringArray>
+['N']
+Length: 1, dtype: str",55.92
+cb_person_default_on_file,"<ArrowStringArray>
+['Y']
+Length: 1, dtype: str",57.51
+cb_person_default_on_file,Special,56.27
+cb_person_default_on_file,Missing,56.27
+cb_person_cred_hist_length,"(-inf, 2.50)",53.72
+cb_person_cred_hist_length,"[2.50, 3.50)",55.99
+cb_person_cred_hist_length,"[3.50, 4.50)",56.28
+cb_person_cred_hist_length,"[4.50, 6.50)",57.79
+cb_person_cred_hist_length,"[6.50, 7.50)",60.09
+cb_person_cred_hist_length,"[7.50, 13.50)",56.96
+cb_person_cred_hist_length,"[13.50, inf)",56.31
+cb_person_cred_hist_length,Special,56.27
+cb_person_cred_hist_length,Missing,56.27
