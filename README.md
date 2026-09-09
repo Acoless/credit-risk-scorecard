@@ -124,6 +124,7 @@ credit-risk-scorecard/
 ├── requirements.txt                 # correr la app
 ├── requirements-dev.txt             # reentrenar (kaggle, matplotlib, jupyter)
 ├── app.py
+├── run.bat
 ├── .streamlit/
 │   └── config.toml                  # tema; NUNCA secrets.toml
 ├── src/
