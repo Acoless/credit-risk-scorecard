@@ -138,8 +138,10 @@ credit-risk-scorecard/
 │   └── scorecard_model.pkl
 ├── outputs/
 │   └── Scorecard_Credito_Puntos.csv
-└── docs/
-    ├── app_preview.png              # capturas de la app
+└── docs/docs/
+    ├── app_preview.png              
+    ├── app_preview2.png
+    ├── Informe_DEMO-20260909-662D0.pdf
     └── Proyect.gif
 
 ```
