@@ -109,7 +109,8 @@ python src/train.py
 ## Limitaciones
 
 - El análisis de punto de corte se calcula sobre el dataset completo, por lo
-  que el *bad rate* observado es optimista respecto de datos fuera de muestra.
+  que el *bad rate* observado es optimista respecto de datos fuera de muestra. 
+  (Solucionado ajuste los datos evaluados a test u aisle por completo el raiting de train)
 - El dataset es estático y no permite validación *out-of-time*, necesaria para
   medir estabilidad poblacional (PSI) en un entorno productivo.
 - No se aplicó corrección por *reject inference*: el modelo aprende únicamente
