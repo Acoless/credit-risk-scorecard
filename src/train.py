@@ -314,6 +314,9 @@ scorecard_export.to_csv("outputs/Scorecard_Credito_Puntos.csv", index=False)
 scorecard_export.head(15)
 
 # %%
+
+## Habría que ver si se puede actualiar esto porque pickle no me va a andar en todos los equipox
+
 import pickle
 
 # antes esto tenia cutoff_revision=570 mientras que la funcion usaba 530.
