@@ -315,7 +315,7 @@ scorecard_export.head(15)
 
 # %%
 
-## Habría que ver si se puede actualiar esto porque pickle no me va a andar en todos los equipox
+## Habría que ver si se puede actualiar esto porque pickle no me va a andar en todos los equipos
 
 import pickle
 
